@@ -33,3 +33,6 @@ $env:AGENT_EVAL_URL="http://127.0.0.1:8001"
 ## Docker 与监控
 
 在项目根目录执行 `docker compose -f docker-compose.agent.yml up --build`。Prometheus 地址为 `http://127.0.0.1:9090`。
+
+## 关联项目
+- Java 后端（外卖系统）：https://github.com/JIANGjixuan111/dining-agent
