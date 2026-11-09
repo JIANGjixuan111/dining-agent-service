@@ -1,0 +1,7 @@
+[
+  {"name":"budget_plan","role":"user","intent":"plan_order","message":"两个人预算80元，不吃辣","required_tools":["get_user_profile","retrieve_knowledge","build_budget_plan"]},
+  {"name":"recommend","role":"user","intent":"recommend","message":"根据我的历史偏好推荐三道菜","required_tools":["get_user_profile","retrieve_knowledge","search_available_dishes"]},
+  {"name":"anomaly","role":"admin","intent":"anomaly_detect","message":"检测最近经营异常","required_tools":["retrieve_knowledge","analyze_business_metrics","detect_business_anomalies"]},
+  {"name":"marketing","role":"admin","intent":"marketing_plan","message":"生成用户召回营销方案","required_tools":["retrieve_knowledge","analyze_business_metrics","generate_marketing_plan"]},
+  {"name":"forecast","role":"admin","intent":"prep_forecast","message":"预测明日备餐量","required_tools":["retrieve_knowledge","analyze_business_metrics","forecast_prep_demand"]}
+]
